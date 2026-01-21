@@ -1,51 +1,69 @@
-<h1 align="center">🦷 Dentwise – Dental Platform with AI Voice Agent 🦷</h1>
+# 🦷 Dentwise
 
-![Demo App](/public/screenshot-for-readme.png)
-
-Highlights:
-
-- 🏠 Modern Landing Page with gradients & images
-- 🔐 Authentication via Clerk (Google, GitHub, Email & Password)
-- 🔑 Email Verification (6-digit code)
-- 📅 Appointment Booking System
-- 🦷 3-Step Booking Flow (Dentist → Service & Time → Confirm)
-- 📩 Email Notifications for Bookings (Resend)
-- 📊 Admin Dashboard for Managing Appointments
-- 🗣️ AI Voice Agent powered by Vapi (Pro Plans only)
-- 💳 Subscription Payments with Clerk (Free + 2 Paid Plans)
-- 🧾 Automatic Invoices via Email
-- 💸 Smart Subscription Upgrades (pay only the difference)
-- 📂 PostgreSQL for Data Persistence
-- 🎨 Styling with Tailwind CSS + Shadcn
-- ⚡ Data Fetching with TanStack Query
-- 🤖 CodeRabbit for PR Optimizations
-- 🧑‍💻 Git & GitHub Workflow (branches, PRs, merges)
-- 🚀 Deployment on Sevalla (free-tier friendly)
+**Dentwise** is a modern dental health platform that combines a structured backend with intuitive frontend features to manage dental data, appointments, and user profiles. Built with a scalable Prisma-powered database schema and best-in-class web technologies, Dentwise is designed for developers and healthcare providers looking to build or extend a dental care application.
 
 ---
 
-## 🧪 .env Setup
+## 📌 Key Features
 
-```bash
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
+- 🗃️ **Robust Database Backend**
+  - Structured models for users, appointments, treatments, and more using **Prisma ORM**
+  - Production-ready schema for relational data management
 
-DATABASE_URL=your_postgres_database_url
+- 🧠 **Extendable Architecture**
+  - Easy to connect to any frontend framework (Next.js, React, Angular, Vue)
+  - Ready for REST or GraphQL API integration
+  - Optimized for real-world use cases such as patient records and scheduling
 
-NEXT_PUBLIC_VAPI_ASSISTANT_ID=your_vapi_assistant_id
-NEXT_PUBLIC_VAPI_API_KEY=your_vapi_api_key
+- 🤝 **User & Appointment Management**
+  - Schema designed for diverse user roles (patients, dentists, admins)
+  - Supports appointment booking, status tracking, and data integrity
 
-ADMIN_EMAIL=your_admin_email
+- 🔒 **Security & Data Integrity**
+  - Prisma ensures typesafe database access
+  - Designed for safe migrations and consistent schema evolution
 
-RESEND_API_KEY=your_resend_api_key
+---
 
-NEXT_PUBLIC_APP_URL=your_app_url
+## 🛠️ Built With
 
-```
+This project uses the following key technologies:
 
-## Run the app
+- **Prisma** — ORM for database modeling and queries  
+- **Node.js / Express** (or similar) — backend API  
+- **PostgreSQL / MySQL / SQLite** — database engines  
+- **TypeScript / JavaScript** — codebase language  
+- Frontend (optional starter integration):  
+  - Next.js / React
 
-```bash
-1- npm install
-2- npm run dev
-```
+---
+
+## 🧠 Database Schema Overview
+
+The Prisma schema includes models for:
+
+- **User** — accounts with personal info, roles, and authentication
+- **Profile** — linked personal or professional details
+- **Appointment** — scheduling and status
+- **Treatment / Records** — dental treatment logs and metadata
+
+These models are defined in `prisma/schema.prisma` and connected through relationships for robust data querying and management.
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Install the following locally:
+
+- Node.js (v16+)
+- npm or yarn
+- A SQL database (PostgreSQL / MySQL / SQLite)
+
+### Installation
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/<your-username>/dentwise.git
+   cd dentwise
