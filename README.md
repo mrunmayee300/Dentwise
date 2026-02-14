@@ -3,6 +3,17 @@
 **Dentwise** is a modern dental health platform that combines a structured backend with intuitive frontend features to manage dental data, appointments, and user profiles. Built with a scalable Prisma-powered database schema and best-in-class web technologies, Dentwise is designed for developers and healthcare providers looking to build or extend a dental care application.
 
 ---
+## 🎥 Demo Video
+
+<div>
+    <a href="https://www.loom.com/share/f5348bd243044ab4a79203c64c76ad37">
+      <p>Watch Video</p>
+    </a>
+    <a href="https://www.loom.com/share/f5348bd243044ab4a79203c64c76ad37">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f5348bd243044ab4a79203c64c76ad37-12f1286725e04422-full-play.gif#t=0.1">
+    </a>
+  </div>
+
 
 ## 📌 Key Features
 
