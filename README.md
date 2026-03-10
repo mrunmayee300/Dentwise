@@ -61,6 +61,3 @@ The Prisma schema includes models for:
 These models are defined in `prisma/schema.prisma` and connected through relationships for robust data querying and management.
 
 ---
-
-ur-username>/dentwise.git
-   cd dentwise
