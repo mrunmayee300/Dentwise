@@ -62,19 +62,5 @@ These models are defined in `prisma/schema.prisma` and connected through relatio
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-Install the following locally:
-
-- Node.js (v16+)
-- npm or yarn
-- A SQL database (PostgreSQL / MySQL / SQLite)
-
-### Installation
-
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/<your-username>/dentwise.git
+ur-username>/dentwise.git
    cd dentwise
